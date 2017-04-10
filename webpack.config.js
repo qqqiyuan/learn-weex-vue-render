@@ -22,6 +22,10 @@ module.exports = {
       {
         test: /\.(js|jsx)$/, 
         loader: 'babel-loader'
+      }, 
+      {
+        test: /\.vue$/, 
+        loader: 'vue-loader'
       }
     ]
   },
